@@ -3,1646 +3,351 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dr. Varsha’s Ayurvedic Treatment Center | Classical Healing &amp; Sanctuary</title>
-  <meta name="description" content="A sanctuary of classical Ayurvedic healing, bespoke Panchakarma therapies, and root-cause constitutional wellness under the guidance of Dr. Varsha (BAMS, MD).">
+  <title>Home | Dr. Varsha’s Ayurvedic Treatment Center</title>
   
-  <!-- Google Fonts: Cormorant Garamond for editorial elegance & Plus Jakarta Sans for crisp readability -->
+  <!-- Google Fonts: Cormorant Garamond & Plus Jakarta Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   
-  <!-- Main Stylesheet -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <!-- Top Announcement Bar -->
-  <div class="announcement-bar" id="announcementBar">
-    <div class="announcement-content">
-      <span class="announcement-icon">✦</span>
-      <span>Seasonal Panchakarma Retreats for Ritu Sandhi are now accepting registrations</span>
-      <span class="announcement-sep">•</span>
-      <span class="announcement-loc">Sanctuary visits by appointment in Indiranagar</span>
-      <button class="announcement-cta" onclick="openBookingModal('Panchakarma Detox')">Reserve Protocol</button>
-    </div>
-    <button class="announcement-close" id="closeAnnouncement" aria-label="Dismiss banner">×</button>
-  </div>
+  <!-- PROTOTYPE IDENTIFIER -->
+  <aside class="proto-banner">
+    Visual Website Structure Prototype — Client Review Concept
+  </aside>
 
-  <!-- Main Navigation Header -->
-  <header class="site-header" id="siteHeader">
-    <div class="header-container">
-      <a href="#hero" class="brand-logo" aria-label="Dr. Varsha's Ayurvedic Treatment Center">
-        <div class="brand-symbol">
-          <!-- Elegant Botanical Lotus/Leaf Emblem -->
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo-svg">
-            <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="1.2" stroke-opacity="0.4"/>
-            <path d="M24 10C24 10 21 17 21 24C21 31 24 38 24 38C24 38 27 31 27 24C27 17 24 10 24 10Z" fill="currentColor" fill-opacity="0.85"/>
-            <path d="M24 24C19 19 12 19 12 19C12 19 14 26 21 28" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
-            <path d="M24 24C29 19 36 19 36 19C36 19 34 26 27 28" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
-            <path d="M24 28C19 28 15 32 15 32C15 32 20 35 24 33" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
-            <path d="M24 28C29 28 33 32 33 32C33 32 28 35 24 33" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
-            <circle cx="24" cy="11" r="1.5" fill="currentColor"/>
-          </svg>
-        </div>
-        <div class="brand-text">
-          <span class="brand-name">Dr. Varsha’s</span>
-          <span class="brand-subtitle">AYURVEDIC TREATMENT CENTER &amp; SANCTUARY</span>
-        </div>
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo">
+        <span class="brand-title">Dr. Varsha’s</span>
+        <span class="brand-sub">Ayurvedic Treatment Center</span>
       </a>
 
-      <!-- Desktop Nav -->
-      <nav class="desktop-nav" aria-label="Main Navigation">
-        <ul class="nav-links">
-          <li><a href="#philosophy" class="nav-link">Our Philosophy</a></li>
-          <li><a href="#treatments" class="nav-link">Treatments</a></li>
-          <li><a href="#doctor" class="nav-link">Dr. Varsha</a></li>
-          <li><a href="#dosha-quiz" class="nav-link">Dosha Assessment</a></li>
-          <li><a href="#experience" class="nav-link">The Sanctuary</a></li>
-          <li><a href="#testimonials" class="nav-link">Patient Stories</a></li>
-          <li><a href="#journal" class="nav-link">Journal</a></li>
-        </ul>
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="treatments.html" class="nav-link">Treatments</a>
+        <a href="testimonials.html" class="nav-link">Testimonials</a>
+        <a href="faq.html" class="nav-link">FAQ</a>
+        <a href="contact.html" class="nav-link">Contact</a>
       </nav>
 
       <div class="header-actions">
-        <a href="#contact" class="header-phone">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-          </svg>
-          <span>+91 98450 22718</span>
-        </a>
-        <button class="btn btn-primary btn-sm" onclick="openBookingModal()">Book Consultation</button>
-        <button class="mobile-toggle" id="mobileToggle" aria-label="Open mobile menu" aria-expanded="false">
-          <span class="hamburger-bar"></span>
-          <span class="hamburger-bar"></span>
-          <span class="hamburger-bar"></span>
-        </button>
+        <a href="contact.html" class="btn btn-outline">Contact Us</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
       </div>
     </div>
-
-    <!-- Mobile Drawer Navigation -->
-    <div class="mobile-drawer" id="mobileDrawer">
-      <div class="drawer-header">
-        <div class="brand-text">
-          <span class="brand-name">Dr. Varsha’s</span>
-          <span class="brand-subtitle">AYURVEDIC TREATMENT CENTER</span>
-        </div>
-        <button class="drawer-close" id="closeDrawer" aria-label="Close mobile menu">×</button>
-      </div>
-      <ul class="mobile-nav-links">
-        <li><a href="#philosophy" class="mobile-nav-link">Our Philosophy</a></li>
-        <li><a href="#treatments" class="mobile-nav-link">Treatments &amp; Therapies</a></li>
-        <li><a href="#doctor" class="mobile-nav-link">About Dr. Varsha</a></li>
-        <li><a href="#dosha-quiz" class="mobile-nav-link">Dosha Assessment Tool</a></li>
-        <li><a href="#experience" class="mobile-nav-link">Sanctuary Environment</a></li>
-        <li><a href="#testimonials" class="mobile-nav-link">Patient Case Stories</a></li>
-        <li><a href="#journal" class="mobile-nav-link">Vedic Wellness Journal</a></li>
-        <li><a href="#contact" class="mobile-nav-link">Location &amp; Hours</a></li>
-      </ul>
-      <div class="drawer-footer">
-        <button class="btn btn-primary btn-block" onclick="openBookingModal(); closeMobileDrawer();">Request An Appointment</button>
-        <div class="drawer-contact-info">
-          <p>Indiranagar, Bengaluru, India</p>
-          <p>Mon – Sat: 8:00 AM – 7:30 PM</p>
-        </div>
-      </div>
-    </div>
-    <div class="drawer-overlay" id="drawerOverlay"></div>
   </header>
 
   <main>
     <!-- HERO SECTION -->
-    <section class="hero-section" id="hero">
-      <div class="hero-bg-texture"></div>
-      <div class="container hero-container">
-        
+    <section class="hero-section">
+      <div class="container hero-grid">
         <div class="hero-content">
-          <div class="badge-subtle">
-            <span class="badge-dot"></span>
-            <span>CLASSICAL AYURVEDA &amp; AUTHENTIC PANCHAKARMA</span>
-          </div>
-
+          <span class="section-label">Home / Hero Outline</span>
           <h1 class="hero-title">
-            Restoring the Natural Rhythm of Body, Mind &amp; Vital Energy
+            Dr. Varsha’s<br>Ayurvedic Treatment Center
           </h1>
-
-          <p class="hero-description">
-            Led by <strong>Dr. Varsha (BAMS, MD)</strong>, our sanctuary bridges five millennia of classical Vedic medicine with quiet contemporary care. We address root causes—balancing your unique doshic constitution through authentic herbal formulations, tailored Panchakarma, and mindful lifestyle architecture.
+          <p class="hero-lead">
+            Short introduction goes here.
           </p>
-
           <div class="hero-actions">
-            <a href="#treatments" class="btn btn-primary">Explore Treatments</a>
-            <button class="btn btn-secondary" onclick="scrollToElement('dosha-quiz')">
-              <span>Take Dosha Assessment</span>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </button>
-          </div>
-
-          <!-- Trust Heritage Strip -->
-          <div class="hero-trust-grid">
-            <div class="trust-item">
-              <span class="trust-number">22+</span>
-              <span class="trust-label">Years Clinical Heritage</span>
-            </div>
-            <div class="trust-divider"></div>
-            <div class="trust-item">
-              <span class="trust-number">100%</span>
-              <span class="trust-label">Classical Herbal Formulas</span>
-            </div>
-            <div class="trust-divider"></div>
-            <div class="trust-item">
-              <span class="trust-number">14k+</span>
-              <span class="trust-label">Patients Rebalanced</span>
-            </div>
+            <a href="treatments.html" class="btn btn-primary">View Treatments</a>
+            <a href="contact.html" class="btn btn-secondary">Contact Us</a>
           </div>
         </div>
 
-        <div class="hero-media-wrapper">
-          <div class="hero-image-card">
-            <img 
-              src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=1200&q=80" 
-              alt="Ayurvedic herbal treatment, Shirodhara oil therapy and medicinal flora" 
-              class="hero-img-main"
-              loading="eager"
-            >
-            <div class="hero-image-overlay"></div>
-
-            <!-- Floating Subtle Highlight Card 1 -->
-            <div class="floating-badge floating-badge-top">
-              <div class="floating-icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
-                </svg>
-              </div>
-              <div class="floating-text">
-                <span class="floating-title">Nadi Pariksha</span>
-                <span class="floating-desc">Precise Pulse Diagnostics</span>
-              </div>
-            </div>
-
-            <!-- Floating Highlight Card 2 -->
-            <div class="floating-badge floating-badge-bottom">
-              <div class="floating-avatar-group">
-                <span class="avatar-star">★</span>
-                <span class="avatar-star">★</span>
-                <span class="avatar-star">★</span>
-                <span class="avatar-star">★</span>
-                <span class="avatar-star">★</span>
-              </div>
-              <div class="floating-text">
-                <span class="floating-title">4.9/5 Patient Rating</span>
-                <span class="floating-desc">NABH Clinical Standards</span>
-              </div>
-            </div>
+        <div class="hero-visual">
+          <div class="placeholder-box aspect-hero">
+            <span>[ Image Placeholder ]</span>
           </div>
         </div>
-
       </div>
     </section>
 
-    <!-- SECTION: OUR PHILOSOPHY & PILLARS OF CARE -->
-    <section class="section philosophy-section" id="philosophy">
+    <!-- SECTION 1: ABOUT / INTRODUCTION -->
+    <section class="section" id="about-section">
       <div class="container">
-        
-        <div class="section-header text-center">
-          <div class="section-tag">ANCIENT SCIENCE OF LONGEVITY</div>
-          <h2 class="section-title">True Healing Does Not Mask Symptoms.<br>It Restores Constitutional Balance.</h2>
-          <div class="title-ornament">
-            <span></span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-              <circle cx="12" cy="12" r="3"/>
-              <path d="M12 2v4M12 18v4M2 12h4M18 12h4"/>
-            </svg>
-            <span></span>
+        <div class="grid-2" style="align-items: center;">
+          <div class="placeholder-box aspect-large">
+            <span>[ Image Placeholder ]</span>
           </div>
-          <p class="section-lead">
-            In classical Ayurveda, health (<em>Swastha</em>) is the dynamic harmony of your metabolic fire (<em>Agni</em>), bodily humors (<em>Doshas</em>), tissues (<em>Dhatus</em>), and a peaceful, tranquil spirit. We design care that treats you as an indivisible whole.
-          </p>
-        </div>
-
-        <div class="pillars-grid">
-          
-          <div class="pillar-card">
-            <div class="pillar-number">01</div>
-            <div class="pillar-icon">
-              <!-- Pulse Diagnostics icon -->
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
-              </svg>
-            </div>
-            <h3 class="pillar-title">Nadi Pariksha</h3>
-            <p class="pillar-subtitle">Eight-Fold Classical Diagnostics</p>
-            <p class="pillar-description">
-              Before prescribing a single leaf, Dr. Varsha examines the subtle vibratory frequencies of your arterial pulse, tongue, eyes, and skin to detect biological imbalances before physical symptoms even crystallize.
-            </p>
-            <ul class="pillar-list">
-              <li>Subtle doshic imbalance mapping</li>
-              <li>Toxin (<em>Ama</em>) stagnation check</li>
-              <li>Vital organ energy assessments</li>
-            </ul>
-          </div>
-
-          <div class="pillar-card highlighted-pillar">
-            <div class="pillar-number">02</div>
-            <div class="pillar-icon">
-              <!-- Shodhana purification icon -->
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                <circle cx="12" cy="12" r="9"/>
-                <path d="M12 7v5l3 3"/>
-              </svg>
-            </div>
-            <h3 class="pillar-title">Shodhana Chikitsa</h3>
-            <p class="pillar-subtitle">Classical Panchakarma Detoxification</p>
-            <p class="pillar-description">
-              Unlike generic spa treatments, our Panchakarma is an authentic, physician-administered cellular reset. Medicated warm oils, steam, and therapeutic processes systematically dislodge deeply rooted systemic toxins.
-            </p>
-            <ul class="pillar-list">
-              <li>Preparatory oleation (<em>Snehana</em>)</li>
-              <li>Herbal steam opening (<em>Swedana</em>)</li>
-              <li>Targeted eliminative therapies</li>
-            </ul>
-          </div>
-
-          <div class="pillar-card">
-            <div class="pillar-number">03</div>
-            <div class="pillar-icon">
-              <!-- Herbal alchemy icon -->
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-              </svg>
-            </div>
-            <h3 class="pillar-title">Dravyaguna Alchemy</h3>
-            <p class="pillar-subtitle">Purity-Tested Classical Medicines</p>
-            <p class="pillar-description">
-              We prepare and source decoctions (<em>Kashayams</em>), fermented tonics (<em>Arishtas</em>), and medicated oils (<em>Thailams</em>) crafted strictly following classical texts like Charaka Samhita and Ashtanga Hridaya.
-            </p>
-            <ul class="pillar-list">
-              <li>Wildcrafted, ethical botanical sourcing</li>
-              <li>Zero synthetic adulterants or preservatives</li>
-              <li>Individualized compounding for your body</li>
-            </ul>
-          </div>
-
-          <div class="pillar-card">
-            <div class="pillar-number">04</div>
-            <div class="pillar-icon">
-              <!-- Dinacharya rhythm icon -->
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                <circle cx="12" cy="12" r="4"/>
-                <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
-              </svg>
-            </div>
-            <h3 class="pillar-title">Dinacharya &amp; Ahara</h3>
-            <p class="pillar-subtitle">Sustainable Lifestyle Architecture</p>
-            <p class="pillar-description">
-              Healing is sustained in your everyday choices. We design compassionate, pragmatic dietary protocols (<em>Ahara</em>) and daily circadian rituals that fit seamlessly into modern working lives.
-            </p>
-            <ul class="pillar-list">
-              <li>Seasonal dietary realignment (<em>Ritucharya</em>)</li>
-              <li>Agni-preserving food combinations</li>
-              <li>Pranayama &amp; restorative sleep rituals</li>
-            </ul>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- SECTION: TREATMENTS & THERAPIES -->
-    <section class="section treatments-section" id="treatments">
-      <div class="container">
-        
-        <div class="section-header-row">
           <div>
-            <div class="section-tag">THERAPEUTIC OFFERINGS</div>
-            <h2 class="section-title">Classical Therapies Crafted for Restorative Healing</h2>
+            <span class="section-label">1. About / Introduction</span>
+            <h2>About Us</h2>
+            <p class="section-lead" style="margin-bottom: 24px;">
+              About the center goes here.
+            </p>
+            <div class="placeholder-content-block">
+              [ Content Placeholder — Background, philosophy, and practitioner introduction will go here ]
+            </div>
           </div>
-          <p class="section-header-note">
-            Every therapy at Dr. Varsha’s center begins with a warm foot bath and intentional blessing, delivered in whisper-quiet, private therapy suites by classically trained therapists.
-          </p>
         </div>
-
-        <!-- Filter Tabs -->
-        <div class="treatment-filter-tabs">
-          <button class="filter-tab active" data-filter="all">All Therapies</button>
-          <button class="filter-tab" data-filter="panchakarma">Panchakarma &amp; Detox</button>
-          <button class="filter-tab" data-filter="nervous">Stress &amp; Sleep</button>
-          <button class="filter-tab" data-filter="joints">Musculoskeletal &amp; Pain</button>
-          <button class="filter-tab" data-filter="rejuvenation">Rejuvenation &amp; Skin</button>
-        </div>
-
-        <!-- Treatment Cards Grid -->
-        <div class="treatments-grid">
-          
-          <!-- Card 1: Shirodhara -->
-          <article class="treatment-card" data-category="nervous">
-            <div class="treatment-media">
-              <img 
-                src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80" 
-                alt="Shirodhara stream therapy warm oil pouring" 
-                class="treatment-img"
-                loading="lazy"
-              >
-              <span class="treatment-badge">Deep Calm</span>
-            </div>
-            <div class="treatment-body">
-              <div class="treatment-meta">
-                <span class="duration">⏱ 60 – 75 Min</span>
-                <span class="dosha-tag">Vata &amp; Pitta Pacifying</span>
-              </div>
-              <h3 class="treatment-name">Shirodhara Mind &amp; Neurological Therapy</h3>
-              <p class="treatment-sanskrit">शिरोधारा • Medicated Herbal Stream</p>
-              <p class="treatment-desc">
-                A continuous, rhythmic stream of lukewarm medicated herbal oils (or cooling medicated buttermilk) gently poured over the forehead (ajna chakra). Deeply quiets racing thoughts and restores restful sleep.
-              </p>
-              <div class="treatment-highlights">
-                <span>Chronic Insomnia</span>
-                <span>Anxiety &amp; Burnout</span>
-                <span>Migraine Relief</span>
-              </div>
-              <div class="treatment-footer">
-                <button class="btn-text" onclick="openTreatmentModal('shirodhara')">
-                  <span>View Full Protocol</span>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                </button>
-                <button class="btn btn-outline-sm" onclick="openBookingModal('Shirodhara Therapy')">Book</button>
-              </div>
-            </div>
-          </article>
-
-          <!-- Card 2: Abhyanga & Swedana -->
-          <article class="treatment-card" data-category="panchakarma">
-            <div class="treatment-media">
-              <img 
-                src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=80" 
-                alt="Full body Ayurvedic Abhyanga herbal oil massage" 
-                class="treatment-img"
-                loading="lazy"
-              >
-              <span class="treatment-badge">Foundation Care</span>
-            </div>
-            <div class="treatment-body">
-              <div class="treatment-meta">
-                <span class="duration">⏱ 75 – 90 Min</span>
-                <span class="dosha-tag">Tridoshic Rebalancing</span>
-              </div>
-              <h3 class="treatment-name">Classical Abhyanga &amp; Herbal Swedana</h3>
-              <p class="treatment-sanskrit">अभ्यङ्ग व स्वेदन • Synchronized Body Therapy</p>
-              <p class="treatment-desc">
-                Full-body rhythmic massage performed with warm custom-compounded medicated oils chosen specifically for your constitution, followed by steam in a handcrafted cedar chamber infused with eucalyptus and dashamoola.
-              </p>
-              <div class="treatment-highlights">
-                <span>Lymphatic Drainage</span>
-                <span>Tissue Nourishment</span>
-                <span>Toxin Mobilization</span>
-              </div>
-              <div class="treatment-footer">
-                <button class="btn-text" onclick="openTreatmentModal('abhyanga')">
-                  <span>View Full Protocol</span>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                </button>
-                <button class="btn btn-outline-sm" onclick="openBookingModal('Abhyanga & Swedana')">Book</button>
-              </div>
-            </div>
-          </article>
-
-          <!-- Card 3: 7 / 14 Day Panchakarma Protocol -->
-          <article class="treatment-card featured-treatment" data-category="panchakarma">
-            <div class="treatment-media">
-              <img 
-                src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=800&q=80" 
-                alt="Authentic Panchakarma medicinal herbal pots and brass urli" 
-                class="treatment-img"
-                loading="lazy"
-              >
-              <span class="treatment-badge highlight">Signature Program</span>
-            </div>
-            <div class="treatment-body">
-              <div class="treatment-meta">
-                <span class="duration">⏱ 7, 14, or 21 Days</span>
-                <span class="dosha-tag">Full Cellular Reset</span>
-              </div>
-              <h3 class="treatment-name">Panchakarma Shodhana Retreat Protocol</h3>
-              <p class="treatment-sanskrit">पञ्चकर्म • Complete 5-Action Purification</p>
-              <p class="treatment-desc">
-                Our hallmark clinical immersion. Includes daily physician pulse monitoring, preparatory internal oleation (<em>Snehapana</em>), targeted classical cleansing (<em>Virechana/Basti/Nasya</em>), and nourishing rejuvenative Rasayana.
-              </p>
-              <div class="treatment-highlights">
-                <span>Metabolic Reset</span>
-                <span>Autoimmune Support</span>
-                <span>Chronic Fatigue</span>
-              </div>
-              <div class="treatment-footer">
-                <button class="btn-text" onclick="openTreatmentModal('panchakarma')">
-                  <span>View Full Protocol</span>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                </button>
-                <button class="btn btn-primary-sm" onclick="openBookingModal('Panchakarma Program')">Enquire</button>
-              </div>
-            </div>
-          </article>
-
-          <!-- Card 4: Kati & Janu Basti -->
-          <article class="treatment-card" data-category="joints">
-            <div class="treatment-media">
-              <img 
-                src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80" 
-                alt="Ayurvedic Kati Basti localized herbal dough warm oil reservoir" 
-                class="treatment-img"
-                loading="lazy"
-              >
-              <span class="treatment-badge">Joint Wellness</span>
-            </div>
-            <div class="treatment-body">
-              <div class="treatment-meta">
-                <span class="duration">⏱ 60 Min</span>
-                <span class="dosha-tag">Vata Pacifying</span>
-              </div>
-              <h3 class="treatment-name">Kati &amp; Janu Basti Spinal &amp; Joint Elixir</h3>
-              <p class="treatment-sanskrit">कटि व जानु बस्ति • Medicated Oil Retention</p>
-              <p class="treatment-desc">
-                An organic herbal dough dam is formed over the lumbar spine or knees, and continually filled with warm, anti-inflammatory medicated herbal oils (Mahanarayana &amp; Sahacharadi) to lubricate dry degenerating joints.
-              </p>
-              <div class="treatment-highlights">
-                <span>Sciatica &amp; Low Back</span>
-                <span>Knee Osteoarthritis</span>
-                <span>Disc Stiffness</span>
-              </div>
-              <div class="treatment-footer">
-                <button class="btn-text" onclick="openTreatmentModal('basti')">
-                  <span>View Full Protocol</span>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                </button>
-                <button class="btn btn-outline-sm" onclick="openBookingModal('Kati Basti Therapy')">Book</button>
-              </div>
-            </div>
-          </article>
-
-          <!-- Card 5: Udvartana & Kashaya Dhara -->
-          <article class="treatment-card" data-category="rejuvenation">
-            <div class="treatment-media">
-              <img 
-                src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80" 
-                alt="Ayurvedic dry herbal powder Udvartana scrub and healing botanicals" 
-                class="treatment-img"
-                loading="lazy"
-              >
-              <span class="treatment-badge">Metabolism</span>
-            </div>
-            <div class="treatment-body">
-              <div class="treatment-meta">
-                <span class="duration">⏱ 75 Min</span>
-                <span class="dosha-tag">Kapha Reducing</span>
-              </div>
-              <h3 class="treatment-name">Udvartana Herbal Scrub &amp; Agni Awakening</h3>
-              <p class="treatment-sanskrit">उद्वर्तन • Lymphatic Powder Massage</p>
-              <p class="treatment-desc">
-                A vigorous, upward strokes body scrub with finely milled medicinal herbs and grains (including Triphala, Kolakulathadi, and barley powder). Breaks down water retention, stimulates sluggish circulation, and softens skin.
-              </p>
-              <div class="treatment-highlights">
-                <span>Metabolic Sluggishness</span>
-                <span>Cellulite &amp; Toning</span>
-                <span>Lethargy &amp; Heaviness</span>
-              </div>
-              <div class="treatment-footer">
-                <button class="btn-text" onclick="openTreatmentModal('udvartana')">
-                  <span>View Full Protocol</span>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                </button>
-                <button class="btn btn-outline-sm" onclick="openBookingModal('Udvartana Treatment')">Book</button>
-              </div>
-            </div>
-          </article>
-
-          <!-- Card 6: Mukha Lepam & Soundarya -->
-          <article class="treatment-card" data-category="rejuvenation">
-            <div class="treatment-media">
-              <img 
-                src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80" 
-                alt="Herbal facial ritual Mukha Lepam with Kumkumadi saffron oil" 
-                class="treatment-img"
-                loading="lazy"
-              >
-              <span class="treatment-badge">Glow &amp; Radiance</span>
-            </div>
-            <div class="treatment-body">
-              <div class="treatment-meta">
-                <span class="duration">⏱ 60 Min</span>
-                <span class="dosha-tag">Skin Harmonizing</span>
-              </div>
-              <h3 class="treatment-name">Soundarya &amp; Mukha Lepam Herbal Facial</h3>
-              <p class="treatment-sanskrit">मुखलेपम् • Saffron &amp; Botanical Beauty</p>
-              <p class="treatment-desc">
-                Pure Kashmiri saffron (Kumkumadi), wild sandalwood, lodhra, and vetiver paste lovingly massaged using classical marma acupressure points. Restores natural micro-circulation, calms hyperpigmentation, and imparts a luminous glow.
-              </p>
-              <div class="treatment-highlights">
-                <span>Dull &amp; Stressed Skin</span>
-                <span>Facial Marma Release</span>
-                <span>Deep Hydration</span>
-              </div>
-              <div class="treatment-footer">
-                <button class="btn-text" onclick="openTreatmentModal('facial')">
-                  <span>View Full Protocol</span>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                </button>
-                <button class="btn btn-outline-sm" onclick="openBookingModal('Soundarya Facial')">Book</button>
-              </div>
-            </div>
-          </article>
-
-        </div>
-
-        <div class="treatments-cta-banner">
-          <div class="cta-banner-text">
-            <h4>Not sure which therapy is best for your current health state?</h4>
-            <p>Every individual’s biological blueprint is distinct. Schedule a diagnostic consultation with Dr. Varsha for a bespoke roadmap.</p>
-          </div>
-          <button class="btn btn-primary" onclick="openBookingModal('Diagnostic Consultation')">Schedule Diagnostic Consultation</button>
-        </div>
-
       </div>
     </section>
 
-    <!-- SECTION: MEET DR. VARSHA (DOCTOR PROFILE) -->
-    <section class="section doctor-section" id="doctor">
+    <!-- SECTION 2: TREATMENT PLANS -->
+    <section class="section section-alt" id="treatments-section">
       <div class="container">
-        
-        <div class="doctor-grid">
-          
-          <div class="doctor-media-col">
-            <div class="doctor-portrait-card">
-              <!-- Serene, warm professional doctor portrait image -->
-              <img 
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=900&q=80" 
-                alt="Dr. Varsha, Senior Ayurvedic Physician & Panchakarma Specialist" 
-                class="doctor-img"
-                loading="eager"
-              >
-              <div class="doctor-badge-floating">
-                <span class="doctor-badge-title">22+ Years Practice</span>
-                <span class="doctor-badge-sub">Gold Medalist BAMS • MD (Ayu)</span>
-              </div>
-            </div>
-
-            <!-- Doctor credentials callout card -->
-            <div class="credentials-card">
-              <h4 class="credentials-heading">Clinical Accreditations</h4>
-              <ul class="credentials-list">
-                <li>
-                  <span class="check-icon">✓</span>
-                  <div>
-                    <strong>BAMS (Bachelor of Ayurvedic Medicine &amp; Surgery)</strong>
-                    <span>Government Ayurveda Medical College, Gold Medalist</span>
-                  </div>
-                </li>
-                <li>
-                  <span class="check-icon">✓</span>
-                  <div>
-                    <strong>MD (Kayachikitsa &amp; Panchakarma)</strong>
-                    <span>Rajiv Gandhi University of Health Sciences</span>
-                  </div>
-                </li>
-                <li>
-                  <span class="check-icon">✓</span>
-                  <div>
-                    <strong>Member, All India Ayurvedic Congress</strong>
-                    <span>Advisor on Classical Herbal Standardization</span>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="doctor-content-col">
-            <div class="section-tag">CHIEF PHYSICIAN &amp; FOUNDER</div>
-            <h2 class="doctor-name">Meet Dr. Varsha</h2>
-            <p class="doctor-qualification">Senior Ayurvedic Physician • Nadi Pariksha Master • Panchakarma Specialist</p>
-
-            <div class="doctor-quote">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" class="quote-icon" opacity="0.2">
-                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
-              </svg>
-              <blockquote>
-                "Ayurveda does not treat the disease that has settled into the body; it treats the body that allowed the disease to settle. When we restore your biological rhythm and kindle the digestive flame (Agni), your innate intelligence handles the cure."
-              </blockquote>
-            </div>
-
-            <div class="doctor-bio-text">
-              <p>
-                Dr. Varsha was raised in a traditional family of traditional healers in Kerala and went on to complete her formal medical degrees with top honors. Over two decades of intensive clinical practice, she has guided over 14,000 patients suffering from modern lifestyle disorders, chronic autoimmune conditions, metabolic syndrome, and mental exhaustion.
-              </p>
-              <p>
-                Her clinical methodology stands out for combining rigorous classical Sanskrit diagnostic methodologies (Nadi, Sparsha, Drik) with modern physiological empathy. At her center, you will never receive an off-the-shelf package; your consultation is a deep, unhurried listening session.
-              </p>
-            </div>
-
-            <div class="doctor-specialties">
-              <span class="spec-tag">Metabolic Disorders &amp; Gut Agni</span>
-              <span class="spec-tag">Thyroid &amp; Hormonal Balance</span>
-              <span class="spec-tag">Chronic Spine &amp; Joint Degeneration</span>
-              <span class="spec-tag">Stress, Insomnia &amp; Burnout</span>
-              <span class="spec-tag">Fertility &amp; Women’s Health (Stree Roga)</span>
-            </div>
-
-            <div class="doctor-actions">
-              <button class="btn btn-primary" onclick="openBookingModal('Consultation with Dr. Varsha')">
-                Request Initial Consultation with Dr. Varsha
-              </button>
-            </div>
-          </div>
-
+        <div class="section-header">
+          <span class="section-label">2. Treatment Plans</span>
+          <h2>Treatments</h2>
+          <p class="section-lead">Treatment information goes here.</p>
         </div>
 
+        <div class="grid-4">
+          <!-- Treatment Card 1 -->
+          <div class="treatment-card">
+            <div class="placeholder-box aspect-thumb">
+              <span>[ Image Placeholder ]</span>
+            </div>
+            <div class="treatment-body">
+              <h3 class="card-title">Treatment Name</h3>
+              <p class="card-desc">Short description placeholder.</p>
+            </div>
+          </div>
+
+          <!-- Treatment Card 2 -->
+          <div class="treatment-card">
+            <div class="placeholder-box aspect-thumb">
+              <span>[ Image Placeholder ]</span>
+            </div>
+            <div class="treatment-body">
+              <h3 class="card-title">Treatment Name</h3>
+              <p class="card-desc">Short description placeholder.</p>
+            </div>
+          </div>
+
+          <!-- Treatment Card 3 -->
+          <div class="treatment-card">
+            <div class="placeholder-box aspect-thumb">
+              <span>[ Image Placeholder ]</span>
+            </div>
+            <div class="treatment-body">
+              <h3 class="card-title">Treatment Name</h3>
+              <p class="card-desc">Short description placeholder.</p>
+            </div>
+          </div>
+
+          <!-- Treatment Card 4 -->
+          <div class="treatment-card">
+            <div class="placeholder-box aspect-thumb">
+              <span>[ Image Placeholder ]</span>
+            </div>
+            <div class="treatment-body">
+              <h3 class="card-title">Treatment Name</h3>
+              <p class="card-desc">Short description placeholder.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- SECTION: INTERACTIVE DOSHA ASSESSMENT QUIZ -->
-    <section class="section dosha-section" id="dosha-quiz">
+    <!-- SECTION 3: WHY CHOOSE US -->
+    <section class="section" id="why-choose-us">
       <div class="container">
-        
         <div class="section-header text-center">
-          <div class="section-tag">SELF-DISCOVERY EXPERIENCE</div>
-          <h2 class="section-title">Discover Your Ayurvedic Constitution (Prakriti)</h2>
-          <div class="title-ornament">
-            <span></span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-              <circle cx="12" cy="12" r="3"/>
-            </svg>
-            <span></span>
-          </div>
-          <p class="section-lead">
-            Every human being is a unique combination of three universal elemental forces: <strong>Vata</strong> (Air &amp; Ether), <strong>Pitta</strong> (Fire &amp; Water), and <strong>Kapha</strong> (Earth &amp; Water). Complete this quick 4-step diagnostic to glimpse your dominant energy and personalized therapy recommendations.
-          </p>
+          <span class="section-label">3. Why Choose Us</span>
+          <h2>Why Choose Our Center</h2>
+          <p class="section-lead">Client-provided content goes here.</p>
         </div>
 
-        <div class="quiz-card-wrapper">
-          <div class="quiz-container" id="quizContainer">
-            
-            <!-- Progress Bar -->
-            <div class="quiz-progress-bar">
-              <div class="quiz-progress-fill" id="quizProgressFill" style="width: 25%;"></div>
-            </div>
-            
-            <div class="quiz-step-indicator" id="quizStepIndicator">Question 1 of 4</div>
+        <div class="grid-3">
+          <div class="card">
+            <h3 class="card-title">Feature / Benefit</h3>
+            <p class="card-desc">Short description placeholder goes here.</p>
+          </div>
 
-            <!-- Quiz Questions -->
-            <div class="quiz-question-slide active" data-step="1">
-              <h3 class="quiz-question-title">1. How would you describe your natural energy and mental flow?</h3>
-              <p class="quiz-question-subtitle">Select the description that mirrors your typical state throughout the week:</p>
-              
-              <div class="quiz-options-grid">
-                <button class="quiz-option-btn" data-dosha="vata" onclick="selectQuizOption(1, 'vata')">
-                  <span class="option-indicator">A</span>
-                  <div class="option-content">
-                    <strong class="option-title">Quick, creative &amp; variable</strong>
-                    <span class="option-desc">I think fast, love new ideas, but easily get overwhelmed, mentally scattered, or anxious under stress.</span>
-                  </div>
-                </button>
+          <div class="card">
+            <h3 class="card-title">Feature / Benefit</h3>
+            <p class="card-desc">Short description placeholder goes here.</p>
+          </div>
 
-                <button class="quiz-option-btn" data-dosha="pitta" onclick="selectQuizOption(1, 'pitta')">
-                  <span class="option-indicator">B</span>
-                  <div class="option-content">
-                    <strong class="option-title">Intense, sharp &amp; goal-driven</strong>
-                    <span class="option-desc">Highly organized, productive, decisive, but prone to irritability, impatience, and feeling overheated when delayed.</span>
-                  </div>
-                </button>
-
-                <button class="quiz-option-btn" data-dosha="kapha" onclick="selectQuizOption(1, 'kapha')">
-                  <span class="option-indicator">C</span>
-                  <div class="option-content">
-                    <strong class="option-title">Calm, steady &amp; methodical</strong>
-                    <span class="option-desc">Even-tempered, loyal, rarely agitated, but can occasionally feel lethargic, unmotivated, or resistant to change.</span>
-                  </div>
-                </button>
-              </div>
-            </div>
-
-            <div class="quiz-question-slide" data-step="2">
-              <h3 class="quiz-question-title">2. How does your digestion and appetite (Agni) behave?</h3>
-              <p class="quiz-question-subtitle">Reflect on your daily hunger signals and metabolic response:</p>
-              
-              <div class="quiz-options-grid">
-                <button class="quiz-option-btn" data-dosha="vata" onclick="selectQuizOption(2, 'vata')">
-                  <span class="option-indicator">A</span>
-                  <div class="option-content">
-                    <strong class="option-title">Irregular &amp; delicate (Vishamagni)</strong>
-                    <span class="option-desc">Sometimes I forget to eat, other times hungry; frequent dry bloating, gas, or hard constipation.</span>
-                  </div>
-                </button>
-
-                <button class="quiz-option-btn" data-dosha="pitta" onclick="selectQuizOption(2, 'pitta')">
-                  <span class="option-indicator">B</span>
-                  <div class="option-content">
-                    <strong class="option-title">Strong, sharp &amp; demanding (Tikshnagni)</strong>
-                    <span class="option-desc">Cannot skip meals without headache or anger; fast digestion, prone to acidity, reflux, or loose stools.</span>
-                  </div>
-                </button>
-
-                <button class="quiz-option-btn" data-dosha="kapha" onclick="selectQuizOption(2, 'kapha')">
-                  <span class="option-indicator">C</span>
-                  <div class="option-content">
-                    <strong class="option-title">Slow, heavy &amp; steady (Mandagni)</strong>
-                    <span class="option-desc">Moderate appetite, can easily skip breakfast without noticing; slow digestion, post-meal heaviness.</span>
-                  </div>
-                </button>
-              </div>
-            </div>
-
-            <div class="quiz-question-slide" data-step="3">
-              <h3 class="quiz-question-title">3. What is your typical sleep pattern?</h3>
-              <p class="quiz-question-subtitle">Think of your sleep over the past 3 months:</p>
-              
-              <div class="quiz-options-grid">
-                <button class="quiz-option-btn" data-dosha="vata" onclick="selectQuizOption(3, 'vata')">
-                  <span class="option-indicator">A</span>
-                  <div class="option-content">
-                    <strong class="option-title">Light, restless &amp; easily broken</strong>
-                    <span class="option-desc">I wake up at slight sounds, often wake at 2–4 AM with a racing mind, and dream of running or flying.</span>
-                  </div>
-                </button>
-
-                <button class="quiz-option-btn" data-dosha="pitta" onclick="selectQuizOption(3, 'pitta')">
-                  <span class="option-indicator">B</span>
-                  <div class="option-content">
-                    <strong class="option-title">Moderate &amp; sound, but wake up hot</strong>
-                    <span class="option-desc">I sleep 6–7 hours soundly; if awakened, I can fall back asleep, but I kick blankets off or dream vividly.</span>
-                  </div>
-                </button>
-
-                <button class="quiz-option-btn" data-dosha="kapha" onclick="selectQuizOption(3, 'kapha')">
-                  <span class="option-indicator">C</span>
-                  <div class="option-content">
-                    <strong class="option-title">Deep, heavy &amp; prolonged</strong>
-                    <span class="option-desc">I sleep easily for 8+ hours, love afternoon naps, and find waking up in the morning difficult or groggy.</span>
-                  </div>
-                </button>
-              </div>
-            </div>
-
-            <div class="quiz-question-slide" data-step="4">
-              <h3 class="quiz-question-title">4. How is your physical frame and skin response?</h3>
-              <p class="quiz-question-subtitle">Your physical tendency and climate preference:</p>
-              
-              <div class="quiz-options-grid">
-                <button class="quiz-option-btn" data-dosha="vata" onclick="selectQuizOption(4, 'vata')">
-                  <span class="option-indicator">A</span>
-                  <div class="option-content">
-                    <strong class="option-title">Slender frame, dry skin, sensitive to cold</strong>
-                    <span class="option-desc">Cold hands/feet, dry or rough skin, prominent joints, prefers warm cozy climates.</span>
-                  </div>
-                </button>
-
-                <button class="quiz-option-btn" data-dosha="pitta" onclick="selectQuizOption(4, 'pitta')">
-                  <span class="option-indicator">B</span>
-                  <div class="option-content">
-                    <strong class="option-title">Medium build, warm flushed skin, sensitive to heat</strong>
-                    <span class="option-desc">Warm body temperature, sensitive reddish skin prone to breakouts, prefers cool breezes and shade.</span>
-                  </div>
-                </button>
-
-                <button class="quiz-option-btn" data-dosha="kapha" onclick="selectQuizOption(4, 'kapha')">
-                  <span class="option-indicator">C</span>
-                  <div class="option-content">
-                    <strong class="option-title">Solid sturdy frame, soft moist skin, prefers warm dry weather</strong>
-                    <span class="option-desc">Naturally strong bones and joints, thick lustrous hair, gains weight easily, dislikes damp damp cold.</span>
-                  </div>
-                </button>
-              </div>
-            </div>
-
-            <!-- Quiz Result View -->
-            <div class="quiz-result-view" id="quizResultView">
-              <div class="result-header">
-                <div class="result-badge">YOUR CONSTITUTIONAL PROFILE</div>
-                <h3 class="result-title" id="dominantDoshaTitle">Dominant Dosha: Vata Constitution</h3>
-                <p class="result-summary" id="doshaSummaryText">
-                  Your profile demonstrates prominent <strong>Vata</strong> traits—governed by Air &amp; Space elements. When balanced, you are creative, vibrant, and energetic. When out of balance, dryness, nervous fatigue, and digestive irregularities can surface.
-                </p>
-              </div>
-
-              <!-- Doshic breakdown bars -->
-              <div class="dosha-breakdown-bars">
-                <div class="bar-group">
-                  <div class="bar-label">
-                    <span>Vata (Air &amp; Ether)</span>
-                    <span id="vataPct">65%</span>
-                  </div>
-                  <div class="bar-track">
-                    <div class="bar-fill fill-vata" id="vataFill" style="width: 65%;"></div>
-                  </div>
-                </div>
-
-                <div class="bar-group">
-                  <div class="bar-label">
-                    <span>Pitta (Fire &amp; Water)</span>
-                    <span id="pittaPct">25%</span>
-                  </div>
-                  <div class="bar-track">
-                    <div class="bar-fill fill-pitta" id="pittaFill" style="width: 25%;"></div>
-                  </div>
-                </div>
-
-                <div class="bar-group">
-                  <div class="bar-label">
-                    <span>Kapha (Earth &amp; Water)</span>
-                    <span id="kaphaPct">10%</span>
-                  </div>
-                  <div class="bar-track">
-                    <div class="bar-fill fill-kapha" id="kaphaFill" style="width: 10%;"></div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Recommended Therapies Box -->
-              <div class="result-recommendations-card">
-                <div class="rec-icon">🌿</div>
-                <div class="rec-content">
-                  <h4 class="rec-title" id="recTherapyTitle">Recommended Sanctuary Therapies:</h4>
-                  <p class="rec-text" id="recTherapyText">
-                    <strong>Shirodhara with Ksheerabala Tailam</strong> to nourish the nervous system, combined with <strong>Warm Herbal Abhyanga</strong> and a grounded, warm, grounding diet with ghee and cooked spices.
-                  </p>
-                </div>
-              </div>
-
-              <div class="result-actions">
-                <button class="btn btn-primary" id="btnBookFromQuiz" onclick="openBookingWithDosha()">
-                  Book Consultation with Dr. Varsha
-                </button>
-                <button class="btn btn-secondary" onclick="resetQuiz()">
-                  Retake Assessment
-                </button>
-              </div>
-            </div>
-
+          <div class="card">
+            <h3 class="card-title">Feature / Benefit</h3>
+            <p class="card-desc">Short description placeholder goes here.</p>
           </div>
         </div>
-
       </div>
     </section>
 
-    <!-- SECTION: THE HEALING JOURNEY (FOUR PHASES) -->
-    <section class="section journey-section" id="journey">
+    <!-- SECTION 4: TESTIMONIALS -->
+    <section class="section section-alt" id="testimonials-section">
       <div class="container">
-        
         <div class="section-header text-center">
-          <div class="section-tag">STRUCTURED CLINICAL PROTOCOL</div>
-          <h2 class="section-title">The Four Stages of Your Healing Journey</h2>
-          <div class="title-ornament">
-            <span></span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/></svg>
-            <span></span>
-          </div>
-          <p class="section-lead">
-            Every clinical recovery at our center follows the timeless classical methodology of ancient Ayurveda—deliberate, deeply restorative, and never rushed.
-          </p>
+          <span class="section-label">4. Testimonials</span>
+          <h2>Client Feedback</h2>
+          <p class="section-lead">Client-provided feedback will be showcased in this section.</p>
         </div>
 
-        <div class="journey-timeline">
-          
-          <div class="journey-step">
-            <div class="step-marker">
-              <span class="step-num">01</span>
-            </div>
-            <div class="step-card">
-              <span class="step-sanskrit">ROGA &amp; ROGI PARIKSHA</span>
-              <h3 class="step-title">In-Depth Clinical Evaluation</h3>
-              <p class="step-desc">
-                A 60-minute private consultation with Dr. Varsha comprising Nadi Pariksha (arterial pulse rhythm), tongue mapping, digestive Agni evaluation, and exploration of your emotional stressors.
-              </p>
-              <div class="step-detail-tag">Outcome: Precise Prakriti &amp; Vikriti Blueprint</div>
-            </div>
-          </div>
-
-          <div class="journey-step">
-            <div class="step-marker">
-              <span class="step-num">02</span>
-            </div>
-            <div class="step-card">
-              <span class="step-sanskrit">PURVA KARMA</span>
-              <h3 class="step-title">Preparatory Internal Oleation</h3>
-              <p class="step-desc">
-                Before deep detoxification, tissues are prepared. You receive customized medicated ghee (<em>Snehapana</em>) and gentle digestive herbs to loosen metabolic waste (<em>Ama</em>) and transport it to the digestive tract.
-              </p>
-              <div class="step-detail-tag">Outcome: Cellular Tissues Hydrated &amp; Primed</div>
-            </div>
-          </div>
-
-          <div class="journey-step">
-            <div class="step-marker">
-              <span class="step-num">03</span>
-            </div>
-            <div class="step-card">
-              <span class="step-sanskrit">PRADHANA KARMA</span>
-              <h3 class="step-title">Therapeutic Panchakarma Administration</h3>
-              <p class="step-desc">
-                Under close medical oversight in our quiet sanctuary rooms, your targeted therapies (such as Shirodhara, Abhyanga, Basti, or Nasya) are delivered by synchronized therapists with classical precision.
-              </p>
-              <div class="step-detail-tag">Outcome: Deep Systemic Elimination of Toxins</div>
-            </div>
-          </div>
-
-          <div class="journey-step">
-            <div class="step-marker">
-              <span class="step-num">04</span>
-            </div>
-            <div class="step-card">
-              <span class="step-sanskrit">PASCHAT KARMA &amp; RASAYANA</span>
-              <h3 class="step-title">Rejuvenation &amp; Lifestyle Sustenance</h3>
-              <p class="step-desc">
-                The most crucial phase. Rebuilding your metabolic fire with restorative herbal tonics (<em>Rasayanas</em>), seasonal food combinations, and personalized Dinacharya routines for lasting health at home.
-              </p>
-              <div class="step-detail-tag">Outcome: Sustained Vitality &amp; Long-Term Equilibrium</div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- SECTION: THE SANCTUARY ENVIRONMENT & SPACES -->
-    <section class="section sanctuary-section" id="experience">
-      <div class="container">
-        
-        <div class="section-header-row">
-          <div>
-            <div class="section-tag">HEALING SANCTUARY</div>
-            <h2 class="section-title">An Urban Oasis of Serenity &amp; Stillness</h2>
-          </div>
-          <p class="section-header-note">
-            Conceived as an architectural sanctuary of quiet, unadorned beauty. Natural terracotta floors, calming water fountains, filtered warm daylight, and the scent of wild camphor and frangipani.
-          </p>
-        </div>
-
-        <div class="gallery-grid">
-          
-          <div class="gallery-item item-large">
-            <img 
-              src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80" 
-              alt="Serene treatment chamber with herbal water vessels and teak wood" 
-              class="gallery-img"
-              loading="lazy"
-            >
-            <div class="gallery-caption">
-              <span class="caption-title">The Shirodhara &amp; Oil Chambers</span>
-              <span class="caption-sub">Acoustically insulated suites with custom hand-carved Neem Droni beds</span>
-            </div>
-          </div>
-
-          <div class="gallery-item">
-            <img 
-              src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=800&q=80" 
-              alt="Traditional apothecary jars and classical herbal formulations" 
-              class="gallery-img"
-              loading="lazy"
-            >
-            <div class="gallery-caption">
-              <span class="caption-title">Classical Oushadhasala</span>
-              <span class="caption-sub">Herbal dispensary with artisanal decoctions</span>
-            </div>
-          </div>
-
-          <div class="gallery-item">
-            <img 
-              src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80" 
-              alt="Serene meditative courtyard and reflecting pool" 
-              class="gallery-img"
-              loading="lazy"
-            >
-            <div class="gallery-caption">
-              <span class="caption-title">The Prana Courtyard</span>
-              <span class="caption-sub">Reflecting pools and aromatic medicinal garden</span>
-            </div>
-          </div>
-
-          <div class="gallery-item item-wide">
-            <img 
-              src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1200&q=80" 
-              alt="Fresh Ayurvedic herbs, botanical oils and stone mortar in treatment space" 
-              class="gallery-img"
-              loading="lazy"
-            >
-            <div class="gallery-caption">
-              <span class="caption-title">Therapeutic Consultation Lounge</span>
-              <span class="caption-sub">Quiet, private spaces for physician dialogue and herbal tea degustation</span>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- SECTION: PATIENT TESTIMONIALS & CASE STUDIES -->
-    <section class="section testimonials-section" id="testimonials">
-      <div class="container">
-        
-        <div class="section-header text-center">
-          <div class="section-tag">TESTIMONIALS &amp; CASE STORIES</div>
-          <h2 class="section-title">Stories of Deep, Enduring Recovery</h2>
-          <div class="title-ornament">
-            <span></span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/></svg>
-            <span></span>
-          </div>
-          <p class="section-lead">
-            Every recovery is a testament to the patient's trust and classical Ayurvedic precision. Here is how patients describe their experience at Dr. Varsha's center.
-          </p>
-        </div>
-
-        <div class="testimonials-grid">
-          
+        <div class="grid-3">
+          <!-- Card 1 -->
           <div class="testimonial-card">
-            <div class="card-stars">★★★★★</div>
-            <p class="testimonial-quote">
-              "I had suffered from incapacitating migraine headaches and nervous insomnia for nearly seven years. Other clinics kept prescribing heavier sedatives. Dr. Varsha identified severe Vata imbalance in my pulse and prescribed 7 sessions of Shirodhara and customized Brahmi Ghrita. Three months later, my headaches have disappeared completely."
-            </p>
-            <div class="testimonial-footer">
-              <div class="patient-avatar-letter">A</div>
-              <div class="patient-info">
-                <strong class="patient-name">Ananya Roy</strong>
-                <span class="patient-case">Senior Architect • Treated for Chronic Migraine &amp; Insomnia</span>
-              </div>
-            </div>
+            <p class="testimonial-quote">“Client testimonial goes here.”</p>
+            <span class="testimonial-author">— Client Name</span>
           </div>
 
-          <div class="testimonial-card featured-testimonial">
-            <div class="card-stars">★★★★★</div>
-            <p class="testimonial-quote">
-              "The 14-day Panchakarma retreat under Dr. Varsha’s direct medical guidance was transformative. I had chronic severe acid reflux, sluggish digestion, and post-viral lethargy. The care here is the antithesis of a commercial day spa—it is profound, clinical, disciplined and deeply compassionate medicine."
-            </p>
-            <div class="testimonial-footer">
-              <div class="patient-avatar-letter">R</div>
-              <div class="patient-info">
-                <strong class="patient-name">Rajesh Krishnamurthy</strong>
-                <span class="patient-case">Technology Director • Treated for Gut Agni &amp; Metabolic Fatigue</span>
-              </div>
-            </div>
-          </div>
-
+          <!-- Card 2 -->
           <div class="testimonial-card">
-            <div class="card-stars">★★★★★</div>
-            <p class="testimonial-quote">
-              "As a classical dancer, my lumbar spine and knees were starting to show degenerative changes with constant stiffness every morning. The Kati Basti and Janu Basti treatments with Sahacharadi oil have restored the fluidity in my joints without invasive procedures. The sanctuary itself is a haven of peace."
-            </p>
-            <div class="testimonial-footer">
-              <div class="patient-avatar-letter">M</div>
-              <div class="patient-info">
-                <strong class="patient-name">Meera Somasundaram</strong>
-                <span class="patient-case">Classical Dancer • Treated for Lumbar Spondylosis</span>
-              </div>
-            </div>
+            <p class="testimonial-quote">“Client testimonial goes here.”</p>
+            <span class="testimonial-author">— Client Name</span>
           </div>
 
-        </div>
-
-        <div class="google-review-banner">
-          <div class="g-rating-left">
-            <div class="g-logo">G</div>
-            <div>
-              <strong>4.9 Out of 5.0 Rating</strong>
-              <span>Based on 340+ verified clinical patient reviews</span>
-            </div>
-          </div>
-          <div class="g-rating-stars">
-            ★★★★★
+          <!-- Card 3 -->
+          <div class="testimonial-card">
+            <p class="testimonial-quote">“Client testimonial goes here.”</p>
+            <span class="testimonial-author">— Client Name</span>
           </div>
         </div>
-
       </div>
     </section>
 
-    <!-- SECTION: AYURVEDIC JOURNAL & INSIGHTS -->
-    <section class="section journal-section" id="journal">
+    <!-- SECTION 5: FAQ -->
+    <section class="section" id="faq-section">
       <div class="container">
-        
-        <div class="section-header-row">
-          <div>
-            <div class="section-tag">VEDIC HEALTH JOURNAL</div>
-            <h2 class="section-title">Wisdom for Living in Harmony With Nature</h2>
-          </div>
-          <a href="#contact" class="btn btn-secondary-sm">View All Articles</a>
-        </div>
-
-        <div class="journal-grid">
-          
-          <article class="journal-card" onclick="openArticleModal('agni')">
-            <div class="journal-media">
-              <img 
-                src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80" 
-                alt="Ayurvedic healthy digestion food and warm golden milk" 
-                class="journal-img"
-                loading="lazy"
-              >
-              <span class="journal-tag">Digestive Science</span>
-            </div>
-            <div class="journal-content">
-              <div class="journal-meta">
-                <span>By Dr. Varsha</span>
-                <span>•</span>
-                <span>5 min read</span>
-              </div>
-              <h3 class="journal-title">The Science of Circadian Agni: Why Eating With the Sun Heals Your Gut</h3>
-              <p class="journal-excerpt">
-                Why skipping your midday meal disrupts your metabolic fire, and how classical food timing reverses bloating and lethargy.
-              </p>
-              <span class="journal-read-link">Read Full Essay →</span>
-            </div>
-          </article>
-
-          <article class="journal-card" onclick="openArticleModal('dinacharya')">
-            <div class="journal-media">
-              <img 
-                src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80" 
-                alt="Morning mindfulness meditation and warm herbal tea" 
-                class="journal-img"
-                loading="lazy"
-              >
-              <span class="journal-tag">Daily Rituals</span>
-            </div>
-            <div class="journal-content">
-              <div class="journal-meta">
-                <span>By Dr. Varsha</span>
-                <span>•</span>
-                <span>4 min read</span>
-              </div>
-              <h3 class="journal-title">The Sacred Art of Dinacharya: 5 Morning Habits for Steady Mental Flow</h3>
-              <p class="journal-excerpt">
-                From tongue scraping with copper to warm sesame oil swishing (Gandusha), discover ancient practices validated by modern longevity biology.
-              </p>
-              <span class="journal-read-link">Read Full Essay →</span>
-            </div>
-          </article>
-
-          <article class="journal-card" onclick="openArticleModal('shirodhara-science')">
-            <div class="journal-media">
-              <img 
-                src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=800&q=80" 
-                alt="Shirodhara warm oil therapy stream and stillness" 
-                class="journal-img"
-                loading="lazy"
-              >
-              <span class="journal-tag">Nervous Health</span>
-            </div>
-            <div class="journal-content">
-              <div class="journal-meta">
-                <span>By Dr. Varsha</span>
-                <span>•</span>
-                <span>6 min read</span>
-              </div>
-              <h3 class="journal-title">Shirodhara Explained: How Continuous Warm Oil Calms Alpha Waves in the Brain</h3>
-              <p class="journal-excerpt">
-                A scientific exploration of how sensory stillness downregulates the sympathetic nervous system and triggers profound parasympathetic repair.
-              </p>
-              <span class="journal-read-link">Read Full Essay →</span>
-            </div>
-          </article>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- SECTION: FREQUENTLY ASKED QUESTIONS (ACCORDION) -->
-    <section class="section faq-section" id="faq">
-      <div class="container faq-container">
-        
-        <div class="faq-intro">
-          <div class="section-tag">COMMON INQUIRIES</div>
-          <h2 class="section-title">Answers to Guide Your Healing Decisions</h2>
-          <p class="faq-lead">
-            Beginning an authentic Ayurvedic treatment is a conscious step toward self-restoration. Here are answers to common questions our patients ask before their first visit.
-          </p>
-          <div class="faq-contact-card">
-            <h4>Have a specific medical query?</h4>
-            <p>Our clinical coordinators are available to answer any questions regarding treatment readiness.</p>
-            <button class="btn btn-primary-sm" onclick="openBookingModal('Inquiry')">Contact Coordinator</button>
-          </div>
+        <div class="section-header text-center">
+          <span class="section-label">5. FAQ</span>
+          <h2>Frequently Asked Questions</h2>
+          <p class="section-lead">Common questions and answers will be organized in an accordion.</p>
         </div>
 
         <div class="faq-list">
-          
           <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span>What occurs during my initial diagnostic consultation with Dr. Varsha?</span>
+            <button class="faq-button" type="button">
+              <span>Question goes here?</span>
               <span class="faq-icon">+</span>
             </button>
-            <div class="faq-answer">
-              <p>
-                Your initial consultation lasts 45 to 60 minutes. Dr. Varsha performs classical <strong>Nadi Pariksha</strong> (arterial pulse rhythm examination), tongue mapping, and a thorough review of your medical history, sleep patterns, dietary habits, and emotional state. She will formulate a clear constitutional diagnosis (Prakriti and Vikriti) and outline a personalized protocol of therapies, herbal decoctions, and dietary adjustments.
-              </p>
+            <div class="faq-content">
+              <p>Answer placeholder.</p>
             </div>
           </div>
 
           <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span>How are Dr. Varsha’s treatments different from a luxury day spa massage?</span>
+            <button class="faq-button" type="button">
+              <span>Question goes here?</span>
               <span class="faq-icon">+</span>
             </button>
-            <div class="faq-answer">
-              <p>
-                Commercial day spas provide superficial relaxation using generic fragrant oils. At our medical treatment center, every session is a physician-prescribed clinical therapy. We formulate specific warm, herb-infused oils (Tailams) boiled with over 30 medicinal roots according to classical pharmacopeia, aimed at moving lymphatic toxins and reversing pathology.
-              </p>
+            <div class="faq-content">
+              <p>Answer placeholder.</p>
             </div>
           </div>
 
           <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span>Can I safely take Ayurvedic herbal medicines alongside my allopathic prescriptions?</span>
+            <button class="faq-button" type="button">
+              <span>Question goes here?</span>
               <span class="faq-icon">+</span>
             </button>
-            <div class="faq-answer">
-              <p>
-                Yes. Dr. Varsha is formally trained in both classical Ayurvedic medicine and modern medical pathology. During your consultation, all existing medications (such as blood pressure, thyroid, or diabetes medication) are reviewed. Herbs are chosen with zero contraindications and spaced appropriately from conventional medications.
-              </p>
+            <div class="faq-content">
+              <p>Answer placeholder.</p>
             </div>
           </div>
-
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span>What is the minimum duration recommended for a Panchakarma protocol?</span>
-              <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-              <p>
-                While localized treatments (such as a single Shirodhara or Abhyanga) offer immediate calm, true cellular Panchakarma requires adequate time to prepare the tissues (Purva Karma) and safely eliminate dislodged toxins. We typically recommend programs of 7 days, 14 days, or 21 days for profound, lasting chronic condition reversal.
-              </p>
-            </div>
-          </div>
-
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span>Do you offer residential inpatient care or outpatient day appointments?</span>
-              <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-              <p>
-                We operate primarily as an exclusive day sanctuary where patients visit for daily 2 to 3-hour sessions and return to their restful home routines. For patients traveling from other cities or international destinations, we have curated boutique wellness hospitality partnerships within 5 minutes of our Indiranagar sanctuary.
-              </p>
-            </div>
-          </div>
-
         </div>
-
       </div>
     </section>
 
-    <!-- SECTION: LOCATION, HOURS & CONTACT -->
-    <section class="section contact-section" id="contact">
+    <!-- SECTION 6: CONTACT -->
+    <section class="section section-alt" id="contact-section">
       <div class="container">
-        
-        <div class="contact-card-box">
-          <div class="contact-info-col">
-            <div class="section-tag">VISIT OUR SANCTUARY</div>
-            <h2 class="contact-title">Step Into an Environment Designed for Stillness</h2>
-            <p class="contact-lead">
-              Our center is nestled in a tranquil tree-lined enclave in Indiranagar, Bengaluru. We operate exclusively by prior appointment to maintain quiet serenity and unhurried clinical attention.
-            </p>
-
-            <div class="contact-details-list">
-              <div class="contact-detail-item">
-                <div class="detail-icon">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                </div>
-                <div>
-                  <strong>Sanctuary Address</strong>
-                  <p>14 Sanctuary Gardens, 12th Main Road, Indiranagar, Bengaluru, Karnataka 560038, India</p>
-                </div>
-              </div>
-
-              <div class="contact-detail-item">
-                <div class="detail-icon">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                </div>
-                <div>
-                  <strong>Sanctuary Visiting Hours</strong>
-                  <p>Monday – Saturday: 8:00 AM – 7:30 PM<br>Sunday: 9:00 AM – 1:30 PM (Special Panchakarma by appointment)</p>
-                </div>
-              </div>
-
-              <div class="contact-detail-item">
-                <div class="detail-icon">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                </div>
-                <div>
-                  <strong>Direct Inquiries</strong>
-                  <p>Telephone: +91 98450 22718<br>Concierge Desk: contact@drvarsha-ayurveda.com</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="contact-quick-buttons">
-              <button class="btn btn-primary" onclick="openBookingModal()">Request Consultation</button>
-              <button class="btn btn-secondary" onclick="showToast('Connecting you with WhatsApp concierge desk...')">
-                <span>WhatsApp Concierge</span>
-              </button>
-            </div>
-          </div>
-
-          <!-- Stylized Sanctuary Map / Visual Card -->
-          <div class="contact-map-col">
-            <div class="map-aesthetic-card">
-              <div class="map-visual-header">
-                <span class="map-pin-pulse"></span>
-                <span class="map-status">Sanctuary Open Today</span>
-              </div>
-              <div class="map-graphic">
-                <!-- Architectural minimalist styled layout representation -->
-                <div class="map-grid-roads">
-                  <div class="road road-h"></div>
-                  <div class="road road-v"></div>
-                  <div class="sanctuary-lot">
-                    <div class="sanctuary-lot-inner">
-                      <span class="lot-icon">🌿</span>
-                      <strong class="lot-title">Dr. Varsha’s Sanctuary</strong>
-                      <span class="lot-subtitle">Indiranagar Quiet Enclave</span>
-                    </div>
-                  </div>
-                  <div class="nearby-landmark">Indiranagar Metro (800m)</div>
-                  <div class="nearby-trees">🌳 🌴 🌳</div>
-                </div>
-              </div>
-              <div class="map-card-footer">
-                <div class="map-feature">
-                  <span>🚗 Valet Parking Available</span>
-                  <span>🍵 Herbal Welcome Tea</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
+        <div class="section-header">
+          <span class="section-label">6. Contact</span>
+          <h2>Contact Us</h2>
+          <p class="section-lead">Location and direct communication channels.</p>
         </div>
 
+        <div class="contact-grid">
+          <div class="contact-info-list">
+            <div class="contact-info-item">
+              <span class="contact-info-label">Phone</span>
+              <span class="contact-info-val">[ Phone Number Placeholder ]</span>
+            </div>
+
+            <div class="contact-info-item">
+              <span class="contact-info-label">WhatsApp</span>
+              <span class="contact-info-val">[ WhatsApp Placeholder ]</span>
+            </div>
+
+            <div class="contact-info-item">
+              <span class="contact-info-label">Email</span>
+              <span class="contact-info-val">[ Email Address Placeholder ]</span>
+            </div>
+
+            <div class="contact-info-item">
+              <span class="contact-info-label">Location</span>
+              <span class="contact-info-val">[ Physical Address / Location Placeholder ]</span>
+            </div>
+          </div>
+
+          <form class="contact-form" onsubmit="handleFormSubmit(event)">
+            <div class="form-group">
+              <label class="form-label">Name</label>
+              <input type="text" class="form-input" placeholder="Name placeholder" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Email or Phone</label>
+              <input type="text" class="form-input" placeholder="Contact placeholder" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Message</label>
+              <input type="text" class="form-input" placeholder="Message placeholder" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Submit Placeholder</button>
+            
+            <div id="formConfirmation" class="placeholder-content-block" style="display: none; margin-top: 10px;">
+              [ Confirmation message placeholder ]
+            </div>
+          </form>
+        </div>
       </div>
     </section>
   </main>
 
-  <!-- SITE FOOTER -->
+  <!-- FOOTER -->
   <footer class="site-footer">
-    <div class="container footer-container">
-      
+    <div class="container">
       <div class="footer-top">
         <div class="footer-brand">
-          <div class="brand-logo footer-logo">
-            <div class="brand-symbol">
-              <svg viewBox="0 0 48 48" fill="none" class="logo-svg">
-                <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="1.2" stroke-opacity="0.4"/>
-                <path d="M24 10C24 10 21 17 21 24C21 31 24 38 24 38C24 38 27 31 27 24C27 17 24 10 24 10Z" fill="currentColor"/>
-              </svg>
-            </div>
-            <div class="brand-text">
-              <span class="brand-name">Dr. Varsha’s</span>
-              <span class="brand-subtitle">AYURVEDIC TREATMENT CENTER &amp; SANCTUARY</span>
-            </div>
-          </div>
-          <p class="footer-tagline">
-            Classical Vedic medicine, individualized Panchakarma protocols, and profound restorative care under the stewardship of Dr. Varsha (BAMS, MD).
-          </p>
-          <div class="footer-badges">
-            <span class="accred-badge">NABH Quality Standards</span>
-            <span class="accred-badge">100% Classical Formulations</span>
-          </div>
+          <div class="brand-title">Dr. Varsha’s</div>
+          <div class="brand-sub">Ayurvedic Treatment Center</div>
+          <p>Client-provided business summary placeholder.</p>
         </div>
 
-        <div class="footer-links-col">
-          <h4 class="footer-heading">Therapies</h4>
-          <ul>
-            <li><a href="#treatments" onclick="openTreatmentModal('panchakarma')">Panchakarma Detox</a></li>
-            <li><a href="#treatments" onclick="openTreatmentModal('shirodhara')">Shirodhara Mind Relief</a></li>
-            <li><a href="#treatments" onclick="openTreatmentModal('abhyanga')">Abhyanga &amp; Swedana</a></li>
-            <li><a href="#treatments" onclick="openTreatmentModal('basti')">Kati &amp; Janu Basti</a></li>
-            <li><a href="#treatments" onclick="openTreatmentModal('udvartana')">Udvartana Herbal Scrub</a></li>
-            <li><a href="#treatments" onclick="openTreatmentModal('facial')">Mukha Lepam Facial</a></li>
+        <div>
+          <div class="footer-heading">Quick Links</div>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="treatments.html">Treatments</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
 
-        <div class="footer-links-col">
-          <h4 class="footer-heading">Sanctuary</h4>
-          <ul>
-            <li><a href="#philosophy">Our Classical Philosophy</a></li>
-            <li><a href="#doctor">About Dr. Varsha</a></li>
-            <li><a href="#dosha-quiz">Dosha Constitution Tool</a></li>
-            <li><a href="#journey">The Four Healing Stages</a></li>
-            <li><a href="#experience">Sanctuary Spaces</a></li>
-            <li><a href="#testimonials">Patient Testimonials</a></li>
+        <div>
+          <div class="footer-heading">Contact Placeholder</div>
+          <ul class="footer-links">
+            <li>Phone: [ Placeholder ]</li>
+            <li>WhatsApp: [ Placeholder ]</li>
+            <li>Email: [ Placeholder ]</li>
+            <li>Location: [ Placeholder ]</li>
           </ul>
-        </div>
-
-        <div class="footer-newsletter-col">
-          <h4 class="footer-heading">The Vedic Seasonal Letter</h4>
-          <p class="newsletter-desc">Receive Dr. Varsha’s seasonal Ritucharya reflections, herbal kitchen remedies, and dinacharya tips once a month.</p>
-          <form class="newsletter-form" onsubmit="handleNewsletter(event)">
-            <input type="email" placeholder="Your email address" required aria-label="Email address" class="newsletter-input">
-            <button type="submit" class="btn btn-primary-sm">Subscribe</button>
-          </form>
-          <span class="newsletter-privacy">We respect your digital peace. Zero spam.</span>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <div class="footer-legal">
-          <p>&copy; 2026 Dr. Varsha’s Ayurvedic Treatment Center. Visual Prototype Presentation Concept.</p>
-          <p class="disclaimer">
-            Disclaimer: This website is a design concept demo. In clinical practice, all treatments are customized after in-person pulse diagnosis by a certified BAMS physician.
-          </p>
-        </div>
-        <div class="footer-socials">
-          <a href="#contact" title="Instagram" class="social-link">Instagram</a>
-          <a href="#contact" title="LinkedIn" class="social-link">LinkedIn</a>
-          <a href="#contact" title="YouTube" class="social-link">YouTube</a>
-        </div>
+        <span>© 2026 Dr. Varsha’s Ayurvedic Treatment Center.</span>
+        <span>Prototype Design Outline • For Client Review Only</span>
       </div>
-
     </div>
   </footer>
 
-  <!-- ============================================== -->
-  <!-- MODAL: INTERACTIVE CONSULTATION BOOKING DEMO  -->
-  <!-- ============================================== -->
-  <div class="modal-backdrop" id="bookingModal" aria-hidden="true" role="dialog" aria-labelledby="bookingModalTitle">
-    <div class="modal-card">
-      <button class="modal-close-btn" onclick="closeBookingModal()" aria-label="Close dialog">×</button>
-      
-      <div id="bookingFormSection">
-        <div class="modal-header">
-          <div class="section-tag">APPOINTMENT REQUEST</div>
-          <h3 class="modal-title" id="bookingModalTitle">Request a Consultation with Dr. Varsha</h3>
-          <p class="modal-subtitle">Experience unhurried pulse diagnostics and customized constitutional care.</p>
-        </div>
-
-        <form class="booking-form" onsubmit="handleBookingSubmit(event)">
-          
-          <div class="form-row">
-            <div class="form-group">
-              <label for="patientName" class="form-label">Full Name *</label>
-              <input type="text" id="patientName" required class="form-control" placeholder="e.g. Priyadarshini Sharma">
-            </div>
-            <div class="form-group">
-              <label for="patientPhone" class="form-label">Phone Number *</label>
-              <input type="tel" id="patientPhone" required class="form-control" placeholder="+91 98765 43210">
-            </div>
-          </div>
-
-          <div class="form-row">
-            <div class="form-group">
-              <label for="patientEmail" class="form-label">Email Address *</label>
-              <input type="email" id="patientEmail" required class="form-control" placeholder="priya@example.com">
-            </div>
-            <div class="form-group">
-              <label for="treatmentSelection" class="form-label">Desired Care or Therapy *</label>
-              <select id="treatmentSelection" required class="form-control">
-                <option value="Initial Diagnostic Consultation">Initial Diagnostic Consultation (Nadi Pariksha)</option>
-                <option value="Shirodhara Therapy">Shirodhara Mind &amp; Neurological Therapy</option>
-                <option value="Abhyanga & Swedana">Classical Abhyanga &amp; Herbal Swedana</option>
-                <option value="Panchakarma Program">7/14/21-Day Panchakarma Detoxification</option>
-                <option value="Kati Basti Therapy">Kati &amp; Janu Basti Spinal &amp; Joint Elixir</option>
-                <option value="Udvartana Treatment">Udvartana Herbal Scrub &amp; Agni Awakening</option>
-                <option value="Soundarya Facial">Soundarya Mukha Lepam Herbal Facial</option>
-                <option value="Other / Undecided">General Health Inquiry / Undecided</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="form-row">
-            <div class="form-group">
-              <label for="preferredDate" class="form-label">Preferred Date *</label>
-              <input type="date" id="preferredDate" required class="form-control" value="2026-10-12">
-            </div>
-            <div class="form-group">
-              <label for="preferredTime" class="form-label">Preferred Time Slot *</label>
-              <select id="preferredTime" required class="form-control">
-                <option value="Morning (8:30 AM – 11:30 AM)">Morning (8:30 AM – 11:30 AM)</option>
-                <option value="Afternoon (12:00 PM – 3:30 PM)">Afternoon (12:00 PM – 3:30 PM)</option>
-                <option value="Evening (4:00 PM – 7:00 PM)">Evening (4:00 PM – 7:00 PM)</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="healthNotes" class="form-label">Brief Health Focus or Concerns (Optional)</label>
-            <textarea id="healthNotes" rows="3" class="form-control" placeholder="e.g. Chronic insomnia, joint discomfort, digestive bloating, stress reset..."></textarea>
-          </div>
-
-          <div class="booking-notice">
-            <span class="notice-icon">ℹ</span>
-            <span>This is a visual concept demo. Submitting will simulate an immediate clinical reservation confirmation.</span>
-          </div>
-
-          <div class="modal-form-actions">
-            <button type="button" class="btn btn-secondary" onclick="closeBookingModal()">Cancel</button>
-            <button type="submit" class="btn btn-primary">Confirm Appointment Request</button>
-          </div>
-
-        </form>
-      </div>
-
-      <!-- Confirmation Screen -->
-      <div id="bookingConfirmationSection" class="booking-success-view" style="display: none;">
-        <div class="success-icon-badge">✓</div>
-        <div class="section-tag">APPOINTMENT RESERVED</div>
-        <h3 class="success-title">Thank You, <span id="confirmName">Priyadarshini</span></h3>
-        <p class="success-desc">
-          Your appointment request for <strong><span id="confirmTreatment">Diagnostic Consultation</span></strong> has been logged in our demo system.
-        </p>
-
-        <div class="confirm-details-card">
-          <div class="confirm-row">
-            <span class="confirm-label">Date &amp; Slot:</span>
-            <strong id="confirmDateTime">Monday, October 12, 2026 • Morning Slot</strong>
-          </div>
-          <div class="confirm-row">
-            <span class="confirm-label">Consulting Physician:</span>
-            <strong>Dr. Varsha (BAMS, MD)</strong>
-          </div>
-          <div class="confirm-row">
-            <span class="confirm-label">Sanctuary Location:</span>
-            <span>Indiranagar Enclave, Bengaluru</span>
-          </div>
-          <div class="confirm-row">
-            <span class="confirm-label">Pre-Visit Guidance:</span>
-            <span>Please arrive 15 minutes early; enjoy our warm ginger-tulsi welcome infusion.</span>
-          </div>
-        </div>
-
-        <button class="btn btn-primary" onclick="closeBookingModal()">Return to Sanctuary Website</button>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- ============================================== -->
-  <!-- MODAL: TREATMENT DETAIL VIEW                   -->
-  <!-- ============================================== -->
-  <div class="modal-backdrop" id="treatmentModal" aria-hidden="true" role="dialog" aria-labelledby="treatmentModalTitle">
-    <div class="modal-card treatment-modal-card">
-      <button class="modal-close-btn" onclick="closeTreatmentModal()" aria-label="Close dialog">×</button>
-      
-      <div class="treatment-modal-grid">
-        <div class="treatment-modal-image-col">
-          <img id="treatmentModalImg" src="" alt="Therapy preview" class="modal-treatment-photo">
-          <div class="treatment-modal-meta-box">
-            <div class="modal-meta-item">
-              <span class="meta-label">Duration</span>
-              <strong id="treatmentModalDuration">60 - 75 Mins</strong>
-            </div>
-            <div class="modal-meta-item">
-              <span class="meta-label">Doshic Impact</span>
-              <strong id="treatmentModalDosha">Pacifies Vata &amp; Pitta</strong>
-            </div>
-          </div>
-        </div>
-
-        <div class="treatment-modal-content-col">
-          <span class="section-tag" id="treatmentModalTag">CLASSICAL PROTOCOL</span>
-          <h3 class="modal-title" id="treatmentModalTitle">Shirodhara Neurological Stream</h3>
-          <p class="treatment-sanskrit" id="treatmentModalSanskrit">शिरोधारा • Medicated Herbal Stream</p>
-          
-          <div class="modal-body-text" id="treatmentModalDesc">
-            <!-- Populated via JavaScript -->
-          </div>
-
-          <h4 class="modal-subheading">Classical Formulations Used</h4>
-          <ul class="modal-ingredients-list" id="treatmentModalIngredients">
-            <!-- Populated via JavaScript -->
-          </ul>
-
-          <h4 class="modal-subheading">Expected Clinical Benefits</h4>
-          <ul class="modal-benefits-list" id="treatmentModalBenefits">
-            <!-- Populated via JavaScript -->
-          </ul>
-
-          <div class="modal-form-actions">
-            <button class="btn btn-secondary" onclick="closeTreatmentModal()">Close</button>
-            <button class="btn btn-primary" id="btnBookThisTreatment" onclick="bookFromTreatmentModal()">Book This Treatment</button>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- ============================================== -->
-  <!-- MODAL: JOURNAL ARTICLE READER                  -->
-  <!-- ============================================== -->
-  <div class="modal-backdrop" id="articleModal" aria-hidden="true" role="dialog">
-    <div class="modal-card article-modal-card">
-      <button class="modal-close-btn" onclick="closeArticleModal()" aria-label="Close dialog">×</button>
-      <div class="article-modal-body" id="articleModalContent">
-        <!-- Populated via JavaScript -->
-      </div>
-    </div>
-  </div>
-
-  <!-- TOAST NOTIFICATION POPUP -->
-  <div class="toast-notification" id="toastNotification" role="alert">
-    <span class="toast-icon">🌿</span>
-    <span class="toast-message" id="toastMessage">Action completed successfully.</span>
-  </div>
-
-  <!-- Main Scripts -->
   <script src="script.js"></script>
 </body>
 </html>
